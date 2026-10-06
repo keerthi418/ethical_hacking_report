@@ -1,56 +1,51 @@
-# Ethical Hacking Reports & Lab Manuals
+# 🛡️ Ethical Hacking & Cyber Security Lab Manuals
 
-This repository contains lab reports and exercise documents covering various concepts, tools, and methodologies in Ethical Hacking, Web Application Security, and Network Reconnaissance.
+![Security Status](https://img.shields.io/badge/Security-Lab%20Manuals-brightgreen?style=for-the-badge&logo=shield)
+![Exercises](https://img.shields.io/badge/Exercises-1%20to%2017-blue?style=for-the-badge)
+![Purpose](https://img.shields.io/badge/Purpose-Educational%20%26%20Research-orange?style=for-the-badge)
 
----
-
-## 📚 Table of Contents
-
-- [Overview](#-overview)
-- [List of Exercises](#-list-of-exercises)
-- [Key Topics Covered](#-key-topics-covered)
-- [Tools & Frameworks Used](#-tools--frameworks-used)
-- [Disclaimer](#-disclaimer)
+A comprehensive collection of practical lab reports, network captures, and vulnerability assessment documentations covering core Offensive and Defensive Cyber Security methodologies.
 
 ---
 
-## 📌 Overview
+## 📌 Repository Overview
 
-This repository serves as a collection of lab exercises documenting practical steps, analysis, and results for core ethical hacking activities. It spans initial footprinting and reconnaissance to exploitation (SQLi, CSRF, XSS) and wireless network assessment.
-
----
-
-## 📁 List of Exercises
-
-1. **Exercise 01:** Footprinting via Search Engines, Web Services, and Social Networking Sites
-2. **Exercise 02:** Website, Email, Whois, DNS, and Network Footprinting
-3. **Exercise 03:** Session Hijacking Using Various Tools
-4. **Exercise 04:** Detect Session Hijacking
-5. **Exercise 05:** Web Server Reconnaissance Using Various Tools
-6. **Exercise 06:** Enumerate Web Server Information
-7. **Exercise 07:** Web Application Reconnaissance Using Various Tools
-8. **Exercise 08:** Web Spidering
-9. **Exercise 09:** Web Application Vulnerability Scanning
-10. **Exercise 10:** Crack FTP Credentials Using a Dictionary Attack
-11. **Exercise 11:** Cross-Site Request Forgery (CSRF) Attack
-12. **Exercise 12:** Identify XSS Vulnerabilities in Web Applications
-13. **Exercise 13:** Detect Web Application Vulnerabilities Using Various Security Tools
-14. **Exercise 14:** SQL Injection Attack Against MSSQL to Extract Databases
-15. **Exercise 15:** Detect SQL Injection Vulnerabilities Using Various Tools
-16. **Exercise 16:** Footprint a Wireless Network
+This repository contains hands-on analysis, methodology documentation, and raw data captures across various security domains:
+* **Reconnaissance & OSINT**
+* **Session & Web Security Analysis**
+* **Vulnerability Assessment & Exploitation (XSS, CSRF, SQLi)**
+* **Network & Wireless Penetration Testing**
 
 ---
 
-## 🛠️ Key Topics Covered
+## 📂 Modules & Laboratory Exercises
 
-- **Reconnaissance & Footprinting:** Open Source Intelligence (OSINT), DNS analysis, Whois lookups, web spidering, and server enumeration.
-- **Web Application Security:** Identifying and exploiting vulnerabilities like Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and SQL Injection (SQLi).
-- **Session Security:** Performing and detecting session hijacking.
-- **Credential Testing:** Dictionary attacks against authentication protocols (e.g., FTP).
-- **Wireless Security:** Wireless network footprinting and discovery.
+| Module / Category | File Name | Key Focus / Objective |
+| :--- | :--- | :--- |
+| **01. Reconnaissance** | `Exercise 01` | Search Engines, Web Services & Social Media Footprinting |
+| | `Exercise 02` | DNS, Whois, Email, and Network Footprinting |
+| | `Exercise 05` | Web Server Reconnaissance |
+| | `Exercise 06` | Web Server Information Enumeration |
+| | `Exercise 07` | Web Application Reconnaissance |
+| | `Exercise 08` | Web Crawling & Spidering |
+| **02. Web App Vulnerabilities** | `Exercise 09` | Web Application Vulnerability Scanning |
+| | `Exercise 11` | Cross-Site Request Forgery (CSRF) Execution |
+| | `Exercise 12` | Cross-Site Scripting (XSS) Identification |
+| | `Exercise 13` | Automated Vulnerability Detection |
+| | `Exercise 14` | MSSQL Database Extraction via SQL Injection |
+| | `Exercise 15` | SQL Injection Vulnerability Detection Tools |
+| **03. Network & Wireless** | `Exercise 03` | Session Hijacking Analysis |
+| | `Exercise 04` | Detecting Session Hijacking Attacks |
+| | `Exercise 10` | Credential Cracking (FTP Dictionary Attack) |
+| | `Exercise 16` | Wireless Network Footprinting |
+| | `Exercise 17` | `raw_capture.txt` — Live Traffic & Packet Analysis |
 
 ---
 
-## ⚠️ Disclaimer
+## 🛠️️ Security Domains & Capabilities Covered
 
-The content in this repository is created strictly for **educational and research purposes**. All testing and experiments are performed in controlled lab environments or on systems with explicit authorization. Unlawful use of these techniques is strictly prohibited.
+```text
+├── 🔍 Reconnaissance & OSINT (DNS, Whois, Server Banners, Web Spidering)
+├── 🔐 Authentication & Session Security (Hijacking Detection, FTP Brute Forcing)
+├── 🌐 Web Application Exploitation (SQLi Data Extraction, CSRF, XSS)
+└── 📡 Network & Wireless Security (Wi-Fi Recon, Packet Traffic Capture)
